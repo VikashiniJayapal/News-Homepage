@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* header */
+
+.header{
+    width: 100%;
+    padding: 40px 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-line{
+    width: 25px;
+    height: 4px;
+    background-color: black;
+    margin-bottom: 4px;
+}
+
+.nav{
+    list-style-type: none;
+    display: block;
+    display: none;
+}
+
+.showmenu{
+    display: block;
+}
+
+/* Banner */
+
+.banner-container{
+    width: 100%;
+    padding: 15px 30px;
+    background-color: white;
+}
+
+.banner-img{
+    overflow: hidden;
+}
+
+/* About */
+
+.about{
+    width: 100%;
+    padding: 15px 30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about h1{
+    font-size: 70px;
+}
+
+.about p{
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+}
+
+.about button{
+    background-color: hsl(5, 85%, 63%);
+    padding: 25px 15px;
+    color: white;
+    border: none;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.new-container{
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.new{
+    width: 100%;
+    padding: 25px 30px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.new h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 50px;
+}
+
+.new-list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.new-list div{
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.new-list h2{
+    font-size: 37px;
+}
+
+.new-list p{
+    color: lightgrey;
+    line-height: 1.5;
+}
+
+/* Gadgets */
+
+.gadgets-container{
+    width: 100%;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.gadgets{
+    display: flex;
+    gap: 40px;
+}
+
+.gadget-desc{
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gadget-desc h1{
+    color: hsl(233, 8%, 79%);
+    font-size:50px;
+}
+
+.gadget-desc p{
+    font-size: 30px;
+    line-height: 1.5;
+    color: hsl(236, 13%, 42%);
+}
